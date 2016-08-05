@@ -1,5 +1,7 @@
 Container for using with Bitbucket Pipeline for testing Laravel project with PHPUnit
-Using `php:latest` ( php7 )
+Using 
+`php:latest` 
+( php7 )
 
 Include MySQL 5.5, composer
 and extending PHP with modules:
