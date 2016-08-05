@@ -3,6 +3,7 @@ Using `php:latest` ( php7 )
 
 Include MySQL 5.5, composer
 and extending PHP with modules:
+
 `iconv, mcrypt, gd, pdo_mysql, pcntl, pdo_sqlite, zip, curl, bcmath, opcacheб mbstring`
 
 Example of `bitbucket-pipelines.yml`:
