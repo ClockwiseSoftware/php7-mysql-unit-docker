@@ -21,4 +21,5 @@ pipelines:
           - service mysql start
           - mysql -u root -e "CREATE DATABASE kicker_chart"
           - php artisan migrate
-          - vendor/bin/phpunit```
+          - vendor/bin/phpunit
+          ```
