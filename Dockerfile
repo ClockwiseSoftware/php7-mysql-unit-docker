@@ -29,4 +29,7 @@ RUN apt-get update && \
         service mysql start && \
         service mysql status
 
-EXPOSE 3306
+RUN apt-get update && \
+        apt-get install -y redis-server
+
+EXPOSE 3306 6379
